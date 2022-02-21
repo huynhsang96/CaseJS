@@ -113,7 +113,7 @@ function play(){
 
         requestAnimationFrame(play); // Giống đệ quy
     }else{
-        alert("End Game!");
+        // alert("End Game!");
         score = 0;
         ball.isGameOver == true;
         bricks.isEndGame == true;
