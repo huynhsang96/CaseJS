@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            font-family:  'Fira Code', 'roboto';
+        } */
+        canvas{
+            margin-top: 20px;
+            
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .container-des{
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="btn">
+        <button class="btn-start">Start Again</button>
+    </div>
+    <div class="container">
+        <div class="container-canvas">
+            <canvas id="myCanvas" width="500" height="500" style="border:1px solid red;">
+        </div>
+        <div class="container-des">
+            <p>scores: <span class="scores">0</span></p>
+            <p>
+                Hướng dẫn cách chơi:
+                <br>
+                - sử dụng nũi mũi tên trái <span font-family: 'Fira code'>(<-)</span> để di chuyển sang trái. 
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./ball.js"></script>
+    <script src="./bar.js"></script>
+    <script src="./brick.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        
+    </script>
+</body>
+</html>

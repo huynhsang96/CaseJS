@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* *{
+            font-family:  'Fira Code', 'roboto';
+        } */
+        canvas{
+            margin-top: 20px;
+            
+        }
+
+        .btn-start{
+            border: none;
+            border-radius: 8px;
+            padding: 5px;
+            
+        }
+
+        .container{
+            display: flex;
+        }
+
+        .container-des{
+            margin-left: 20px;
+        }
+
+        .container-des p:nth-child(2){
+            border: solid 1px red;
+            padding: 10px;
+            font-weight: 500;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="btn">
+        <button class="btn-start">Start Again</button>
+    </div>
+    <div class="container">
+        <div class="container-canvas">
+            <canvas id="myCanvas" width="500" height="500" style="border:1px solid red;">
+        </div>
+        <div class="container-des">
+            <p>Scores: <span class="scores">0</span></p>
+            <p>
+                Hướng dẫn cách chơi:
+                <br>
+                - Sử dụng nũi mũi tên trái <span style="font-family: 'Fira code';">(<-)</span> để di chuyển sang trái. 
+                <br>
+                - Sử dụng nũi mũi tên phải <span style="font-family: 'Fira code';">(->)</span> để di chuyển sang phải.
+                <br>
+                - Mỗi lần phá một viên gạch sẽ được 1 điểm.
+            </p>
+        </div>
+    </div>
+
+
+    <script src="./ball.js"></script>
+    <script src="./bar.js"></script>
+    <script src="./brick.js"></script>
+    <script src="./main.js"></script>
+
+    <script>
+        
+    </script>
+</body>
+</html>
